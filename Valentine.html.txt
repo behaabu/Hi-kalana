@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine’s Day🤍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebf1;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d63384;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .heart {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            margin: 20px auto;
+            transform: rotate(-45deg);
+            box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .heart:before,
+        .heart:after {
+            content: "";
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .heart:before {
+            top: -50px;
+            left: 0;
+        }
+        .heart:after {
+            left: 50px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cie tanggal 14</h1>
+        <div class="heart"></div>
+        <p>Gimana harinya di tanggal 14 ini? Sudah semanis kamu belum? Bahagia terus ya, Kalana. Semoga harimu selalu diberikan kebahagiaan dan cinta yang banyak dari orang-orang di sekitarmu 🤍.</p>
+    </div>
+
+</body>
+</html>
